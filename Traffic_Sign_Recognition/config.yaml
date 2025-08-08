@@ -1,0 +1,17 @@
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  img_height: 64
+  img_width: 64
+  batch_size: 32
+  validation_split: 0.2
+  seed: 42
+
+training:
+  epochs: 20
+  learning_rate: 0.001
+  model_name: "traffic_sign_cnn"
+
+paths:
+  model_dir: "models"
+  results_dir: "results"
